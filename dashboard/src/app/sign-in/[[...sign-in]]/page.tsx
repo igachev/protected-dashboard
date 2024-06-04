@@ -1,8 +1,11 @@
-import React from 'react'
+import { SignIn } from "@clerk/nextjs"
 
-const SignInPage = () => {
+
+const SignInPage: React.FC = () => {
   return (
-    <div>page</div>
+    <>
+    <SignIn />
+    </>
   )
 }
 

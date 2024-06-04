@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import React from 'react'
 
-const Header = () => {
+const Header: React.FC = () => {
   return (
     <>
     <nav className="bg-blue-700 py-4 px-6 flex items-center justify-center mb-5">
