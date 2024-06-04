@@ -24,7 +24,7 @@ export default function RootLayout({
         <Header />
         <main className="container mx-auto">
           <div className="flex items-start justify-center min-h-screen">
-            <div className="mt-20">
+            <div className="mt-20 w-full bg-red-400">
             {children}
             </div>
           </div>
