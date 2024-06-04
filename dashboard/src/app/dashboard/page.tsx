@@ -62,6 +62,62 @@ const DashboardPage: React.FC = () => {
 </Menubar>
     </div>
 
+    <div className="flex w-full gap-3">
+
+<div className="w-3/12">
+<Card className="rounded-lg shadow-lg">
+  <CardHeader className="pb-0">
+    <h2 className="font-bold">Total Revanue</h2>
+    <h3 className="text-2xl font-bold">$45,231.89</h3>
+    </CardHeader>
+  <CardContent>
+    <p className="text-gray-400">+20.1% from last month</p>
+  </CardContent>
+ 
+</Card>
+</div>
+
+<div className="w-3/12">
+<Card className="rounded-lg shadow-lg">
+  <CardHeader className="pb-0">
+    <h2 className="font-bold">Subscriptions</h2>
+    <h3 className="text-2xl font-bold">+2350</h3>
+    </CardHeader>
+  <CardContent>
+    <p className="text-gray-400">+180.1% from last month</p>
+  </CardContent>
+ 
+</Card>
+</div>
+
+<div className="w-3/12">
+<Card className="rounded-lg shadow-lg">
+  <CardHeader className="pb-0">
+    <h2 className="font-bold">Sales</h2>
+    <h3 className="text-2xl font-bold">+12,234</h3>
+    </CardHeader>
+  <CardContent>
+    <p className="text-gray-400">+19% from last month</p>
+  </CardContent>
+ 
+</Card>
+</div>
+
+<div className="w-3/12 rounded">
+<Card className="rounded-lg shadow-lg">
+  <CardHeader className="pb-0">
+    <h2 className="font-bold">Active Now</h2>
+    <h3 className="text-2xl font-bold">+573</h3>
+    </CardHeader>
+  <CardContent>
+    <p className="text-gray-400">+201 since last hour</p>
+  </CardContent>
+ 
+</Card>
+</div>
+
+    </div>
+
   </CardHeader>
   <CardContent>
     <p>Card Content</p>
