@@ -24,7 +24,15 @@ import {
   PopoverTrigger,
 } from "@/components/ui/popover"
 
-
+import {
+  Menubar,
+  MenubarContent,
+  MenubarItem,
+  MenubarMenu,
+  MenubarSeparator,
+  MenubarShortcut,
+  MenubarTrigger,
+} from "@/components/ui/menubar"
 
 
 
@@ -35,14 +43,25 @@ const DashboardPage: React.FC = () => {
   <CardHeader>
     <div className="flex justify-between items-center">
     <CardTitle>Dashboard</CardTitle>
+
     <div className="flex gap-3">
     <DatePickerWithRange />
-
-    
-    <Button variant="default">Button</Button>
+    <Button variant="default">Download</Button>
+    </div>
 
     </div>
+
+    <div>
+    <Menubar>
+  <MenubarMenu>
+    <MenubarTrigger>Overview</MenubarTrigger>
+    <MenubarTrigger>Analytics</MenubarTrigger>
+    <MenubarTrigger>Reports</MenubarTrigger>
+    <MenubarTrigger>Notifications</MenubarTrigger>
+  </MenubarMenu>
+</Menubar>
     </div>
+
   </CardHeader>
   <CardContent>
     <p>Card Content</p>
