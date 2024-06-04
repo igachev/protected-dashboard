@@ -33,6 +33,10 @@ import {
   MenubarShortcut,
   MenubarTrigger,
 } from "@/components/ui/menubar"
+import CustomBarGraph from "@/components/ui/CustomBarGraph";
+
+
+
 
 
 
@@ -115,6 +119,14 @@ const DashboardPage: React.FC = () => {
  
 </Card>
 </div>
+
+    </div>
+
+    <div className="flex w-full">
+
+    <div className="w-7/12 border rounded-lg p-2 shadow-lg">
+    <CustomBarGraph />
+    </div>
 
     </div>
 
