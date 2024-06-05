@@ -234,7 +234,7 @@ const DashboardPage: React.FC = () => {
   )
 }
 
-export function DatePickerWithRange({
+ function DatePickerWithRange({
   className,
 }: React.HTMLAttributes<HTMLDivElement>) {
   const [date, setDate] = React.useState<DateRange | undefined>({
