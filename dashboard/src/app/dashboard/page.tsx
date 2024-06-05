@@ -43,7 +43,7 @@ import CustomBarGraph from "@/components/ui/CustomBarGraph";
 const DashboardPage: React.FC = () => {
   return (
     <>
-  <Card className="w-full flex flex-col wrap">
+  <Card className="w-full flex flex-col">
   <CardHeader>
     <div className="flex justify-between items-center">
     <CardTitle>Dashboard</CardTitle>
@@ -133,10 +133,10 @@ const DashboardPage: React.FC = () => {
     <p className="text-gray-400 text-sm pt-1 pl-1">You made 265 sales this month</p>
 
     <div className="w-full p-2">
-<Card className="border-0 shadow-none flex justify-between items-center">
+<Card className="border-0 shadow-none flex justify-between items-center ">
   <CardHeader className="p-0 pl-2">
-    <div className="flex items-center">
-    <p>img</p>
+    <div className="flex items-center flex-wrap">
+    <img src="" alt="img" className="pr-2" />
     <div>
     <h2 className="font-bold text-sm">Olivia Martin</h2>
     <h3 className=" text-gray-400 text-xs">olivia.martin@email.com</h3>
@@ -154,7 +154,7 @@ const DashboardPage: React.FC = () => {
 <Card className="border-0 shadow-none flex justify-between items-center">
   <CardHeader className="p-0 pl-2">
     <div className="flex items-center">
-    <p>img</p>
+    <img src="" alt="img" className="pr-2" />
     <div>
     <h2 className="font-bold text-sm">Jackson Lee</h2>
     <h3 className=" text-gray-400 text-xs">jackson.lee@email.com</h3>
@@ -172,7 +172,7 @@ const DashboardPage: React.FC = () => {
 <Card className="border-0 shadow-none flex justify-between items-center">
   <CardHeader className="p-0 pl-2">
     <div className="flex items-center">
-    <p>img</p>
+    <img src="" alt="img" className="pr-2" />
     <div>
     <h2 className="font-bold text-sm">Isabella Nguyen</h2>
     <h3 className=" text-gray-400 text-xs">isabella.nguyen@email.com</h3>
@@ -190,7 +190,7 @@ const DashboardPage: React.FC = () => {
 <Card className="border-0 shadow-none flex justify-between items-center">
   <CardHeader className="p-0 pl-2">
     <div className="flex items-center">
-    <p>img</p>
+    <img src="" alt="img" className="pr-2" />
     <div>
     <h2 className="font-bold text-sm">William Kim</h2>
     <h3 className=" text-gray-400 text-xs">will@email.com</h3>
@@ -208,7 +208,7 @@ const DashboardPage: React.FC = () => {
 <Card className="border-0 shadow-none flex justify-between items-center">
   <CardHeader className="p-0 pl-2">
     <div className="flex items-center">
-    <p>img</p>
+    <img src="" alt="img" className="pr-2" />
     <div>
     <h2 className="font-bold text-sm">Sofia Davis</h2>
     <h3 className=" text-gray-400 text-xs">sofia.davis@email.com</h3>
