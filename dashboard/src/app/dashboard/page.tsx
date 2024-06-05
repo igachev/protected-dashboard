@@ -43,7 +43,7 @@ import CustomBarGraph from "@/components/ui/CustomBarGraph";
 const DashboardPage: React.FC = () => {
   return (
     <>
-  <Card>
+  <Card className="w-full flex flex-col wrap">
   <CardHeader>
     <div className="flex justify-between items-center">
     <CardTitle>Dashboard</CardTitle>
@@ -56,7 +56,7 @@ const DashboardPage: React.FC = () => {
     </div>
 
     <div>
-    <Menubar>
+    <Menubar className="w-fit">
   <MenubarMenu>
     <MenubarTrigger>Overview</MenubarTrigger>
     <MenubarTrigger>Analytics</MenubarTrigger>
@@ -122,21 +122,111 @@ const DashboardPage: React.FC = () => {
 
     </div>
 
-    <div className="flex w-full">
+    <div className="flex w-full gap-3">
 
     <div className="w-7/12 border rounded-lg p-2 shadow-lg">
     <CustomBarGraph />
     </div>
 
+    <div className="w-5/12 border rounded-lg p-2 shadow-lg">
+    <h4 className="font-bold pt-1 pl-1">Recent Sales</h4>
+    <p className="text-gray-400 text-sm pt-1 pl-1">You made 265 sales this month</p>
+
+    <div className="w-full p-2">
+<Card className="border-0 shadow-none flex justify-between items-center">
+  <CardHeader className="p-0 pl-2">
+    <div className="flex items-center">
+    <p>img</p>
+    <div>
+    <h2 className="font-bold text-sm">Olivia Martin</h2>
+    <h3 className=" text-gray-400 text-xs">olivia.martin@email.com</h3>
+    </div>
+    </div>
+    </CardHeader>
+  <CardContent className="p-0">
+    <p className="font-bold p-0">+$1,999.00</p>
+  </CardContent>
+ 
+</Card>
+</div>
+
+<div className="w-full p-2">
+<Card className="border-0 shadow-none flex justify-between items-center">
+  <CardHeader className="p-0 pl-2">
+    <div className="flex items-center">
+    <p>img</p>
+    <div>
+    <h2 className="font-bold text-sm">Jackson Lee</h2>
+    <h3 className=" text-gray-400 text-xs">jackson.lee@email.com</h3>
+    </div>
+    </div>
+    </CardHeader>
+  <CardContent className="p-0">
+    <p className="font-bold p-0">+$39.00</p>
+  </CardContent>
+ 
+</Card>
+</div>
+
+<div className="w-full p-2">
+<Card className="border-0 shadow-none flex justify-between items-center">
+  <CardHeader className="p-0 pl-2">
+    <div className="flex items-center">
+    <p>img</p>
+    <div>
+    <h2 className="font-bold text-sm">Isabella Nguyen</h2>
+    <h3 className=" text-gray-400 text-xs">isabella.nguyen@email.com</h3>
+    </div>
+    </div>
+    </CardHeader>
+  <CardContent className="p-0">
+    <p className="font-bold p-0">+$299.00</p>
+  </CardContent>
+ 
+</Card>
+</div>
+
+<div className="w-full p-2">
+<Card className="border-0 shadow-none flex justify-between items-center">
+  <CardHeader className="p-0 pl-2">
+    <div className="flex items-center">
+    <p>img</p>
+    <div>
+    <h2 className="font-bold text-sm">William Kim</h2>
+    <h3 className=" text-gray-400 text-xs">will@email.com</h3>
+    </div>
+    </div>
+    </CardHeader>
+  <CardContent className="p-0">
+    <p className="font-bold p-0">+$99.00</p>
+  </CardContent>
+ 
+</Card>
+</div>
+
+<div className="w-full p-2">
+<Card className="border-0 shadow-none flex justify-between items-center">
+  <CardHeader className="p-0 pl-2">
+    <div className="flex items-center">
+    <p>img</p>
+    <div>
+    <h2 className="font-bold text-sm">Sofia Davis</h2>
+    <h3 className=" text-gray-400 text-xs">sofia.davis@email.com</h3>
+    </div>
+    </div>
+    </CardHeader>
+  <CardContent className="p-0">
+    <p className="font-bold p-0">+$39.00</p>
+  </CardContent>
+ 
+</Card>
+</div>
+    
+    </div>
+
     </div>
 
   </CardHeader>
-  <CardContent>
-    <p>Card Content</p>
-  </CardContent>
-  <CardFooter>
-    <p>Card Footer</p>
-  </CardFooter>
 </Card>
 
 
